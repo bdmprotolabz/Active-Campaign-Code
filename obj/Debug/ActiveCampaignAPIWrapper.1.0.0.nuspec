@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ActiveCampaignAPIWrapper</id>
+    <version>1.0.0</version>
+    <authors>Vinay</authors>
+    <description>ActiveCampaign API Wrapper for .NET</description>
+    <tags>ActiveCampaign, API Wrapper, .NET</tags>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http" version="4.3.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\WrapperForActiveCampaignAPI\ActiveCampaignAPIWrapper\bin\Debug\net8.0\ActiveCampaignAPIWrapper.dll" target="lib\net8.0\ActiveCampaignAPIWrapper.dll" />
+  </files>
+</package>
